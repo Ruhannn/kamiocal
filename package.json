@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "dev": "deno run --watch src/index.ts /mnt/D89C34B29C348D4E/picture",
+    "dev": "bun run --watch src/index.ts /mnt/D89C34B29C348D4E/picture",
     "build": "tsc",
     "start:dist": "node dist/src/index.js",
     "lint": "eslint --fix src",
@@ -13,9 +13,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.3",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.1",

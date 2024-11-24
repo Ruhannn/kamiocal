@@ -499,17 +499,11 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.mb-4 {
-  margin-bottom: 1rem;
-}
 .mt-4 {
   margin-top: 1rem;
 }
 .flex {
   display: flex;
-}
-.min-h-dvh {
-  min-height: 100dvh;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -541,10 +535,6 @@ video {
 }
 .text-center {
   text-align: center;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 .text-4xl {
   font-size: 2.25rem;

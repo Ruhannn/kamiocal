@@ -1,6 +1,5 @@
-import path from "path"
-import { sharedDir } from "../arguments/shareDir"
+import { join } from "path"
 
-export const getFilePath = (file: string) => {
-    return path.join(sharedDir, file)
+export const getFilePath = (sharedDir: string, file: string) => {
+    return join(sharedDir, file)
 }

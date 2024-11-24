@@ -1,24 +1,20 @@
-import express from 'express';
-
-import { sharedDir } from './arguments/shareDir';
-import { readDirectory } from './utils/files';
-
-const app = express();
-const PORT = process.env.PORT || 5000
+import { bigText,  PORT, screen } from './utils/text';
+import app from "./app";
 
 
-app.set('views', './src/views');
-app.set('view engine', 'pug');
-app.use(express.static('./public'))
 
-app.use(express.static(sharedDir));
 
-app.get('/', (req, res) => {
-    // res.json(readDirectory(sharedDir))
-    res.render("index")
+bigText("K a m i o c a l")
+
+
+const server = app.listen(PORT, () => {
+    screen()
 });
 
-
-app.listen(PORT, () => {
-    console.log(`love ayaka on: http://localhost:${PORT}`);
+process.on("SIGINT", () => {
+    server.close(() => {
+        console.log(" Server has been gently put to rest. Goodbye!");
+        process.exit(0);
+    });
 });
+

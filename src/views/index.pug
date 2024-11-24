@@ -6,9 +6,9 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
     title Kamiocal
     link(href="./styles/style.css", rel="stylesheet") 
-body(class="min-h-screen flex items-center justify-center bg-gray-100")
+body(class="flex items-center justify-center min-h-screen bg-gray-100")
   div(class="text-center")
-    h1(class="text-4xl font-bold text-indigo-600 bg-indigo-200 px-6 py-3 rounded-lg shadow-lg") all files
+    h1 all files
     each file in data
-     img(class="text-xl text-gray-700 mt-4",src=file.path)
+     ul(class="mt-4 text-xl text-gray-700")=file.name
 

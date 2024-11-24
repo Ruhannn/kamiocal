@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 router.get('/:folder(*)', (req, res) => {
     const folderPath = join(sharedDir, req.params.folder);
     const data = readDirectory(folderPath)
-    res.json(data)
+    res.render('index', { data });
 
 });
 

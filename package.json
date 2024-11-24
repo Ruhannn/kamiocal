@@ -5,25 +5,30 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "dev": "bun run --watch src/index.ts /mnt/D89C34B29C348D4E/picture",
+    "dev": "bun run --watch src/index.ts",
     "build": "tsc",
     "start:dist": "node dist/src/index.js",
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css -w",
     "lint": "eslint --fix src",
     "typecheck": "tsc --noEmit"
   },
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "pug": "^3.0.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.3",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.31.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3"
   }
 }

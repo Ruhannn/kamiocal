@@ -24,3 +24,5 @@ dist
 
 # test
 test.ts
+# bun
+bun.lockb

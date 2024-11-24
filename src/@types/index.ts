@@ -4,4 +4,5 @@ export interface FileDetails {
     isDirectory: boolean;
     size: string;
     totalFiles: number | null
+    type: string
 }

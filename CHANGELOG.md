@@ -1,5 +1,11 @@
 # kamiocal
 
+## 2.2.0
+
+### Minor Changes
+
+- b8adb20: fixed isuue
+
 ## 2.1.1
 
 ### Patch Changes

@@ -1,5 +1,0 @@
----
-"kamiocal": minor
----
-
-fixed isuue

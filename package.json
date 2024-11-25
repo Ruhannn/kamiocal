@@ -13,7 +13,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --publicDir",
     "lint": "tsc --noEmit",
-    "release": "bun run build && changeset publish",
+    "release": "bun run build && changeset publish dist",
     "change": "bun changeset"
   },
   "dependencies": {

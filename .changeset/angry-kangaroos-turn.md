@@ -1,0 +1,5 @@
+---
+"kamiocal": major
+---
+
+fixed

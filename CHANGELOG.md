@@ -1,5 +1,11 @@
 # kamiocal
 
+## 2.1.1
+
+### Patch Changes
+
+- fc4002d: fixed file isuue
+
 ## 2.1.0
 
 ### Minor Changes

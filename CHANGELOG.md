@@ -1,5 +1,15 @@
 # kamiocal
 
+## 2.0.0
+
+### Major Changes
+
+- e247e0b: fixed
+
+### Minor Changes
+
+- a583108: fixed
+
 ## 1.3.0
 
 ### Minor Changes

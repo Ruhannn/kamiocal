@@ -1,6 +1,6 @@
 {
   "name": "kamiocal",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "a easy to use cli tool to share a folder to your local network",
   "license": "MIT",
   "main": "dist/index.js",

@@ -1,5 +1,11 @@
 # kamiocal
 
+## 2.2.1
+
+### Patch Changes
+
+- 4f96909: fixed
+
 ## 2.2.0
 
 ### Minor Changes

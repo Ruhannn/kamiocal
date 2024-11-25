@@ -1,7 +1,7 @@
 import { stat } from "fs";
 
 
-export const sharedDir = process.argv[2];
+export const sharedDir = process.argv[2]!;
 
 if (!sharedDir) {
     console.error(" Oopsie! You forgot to tell me which directory to look at. Please provide the directory path!");

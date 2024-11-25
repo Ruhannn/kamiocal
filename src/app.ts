@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'src', 'views'));
 app.set('view cache', false);
 app.use(express.static('./public'))
 
-app.use(express.static(sharedDir!));
+app.use(express.static(sharedDir));
 
 app.use(router)
 

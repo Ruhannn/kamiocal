@@ -1,4 +1,5 @@
-import { bigText,  PORT, screen } from './utils/text';
+#!/usr/bin/env node
+import { bigText, PORT, screen } from './utils/text';
 import app from "./app";
 
 

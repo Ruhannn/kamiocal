@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <title>Kamiocal</title>
   <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/1009412343303770173.png" type="image/png">
-  <link href="../../styles/style.css?version=<%= Date.now() %>" rel="stylesheet" />
+  <link href="/styles/style.css?version=<%= Date.now() %>" rel="stylesheet" />
 </head>
 
 <body class="p-6 bg-[#1f1f1f]">
@@ -20,19 +20,19 @@
         <!-- icons -->
         <div class="flex justify-center">
           <% if (file.type === "folder") { %>
-          <img src="../../icons/folder.svg" alt="Folder icon" class="size-8">
+          <img src="/icons/folder.svg" alt="Folder icon" class="size-8">
           <% } else if (['jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'webp'].includes(file.type)) { %>
-          <img src="../../icons/image.svg" alt="Image icon" class="size-8">
+          <img src="/icons/image.svg" alt="Image icon" class="size-8">
           <% } else if (['mp4', 'mov', 'avi', 'mkv', 'wmv', 'flv'].includes(file.type)) { %>
-          <img src="../../icons/video.svg" alt="Video icon" class="size-8">
+          <img src="/icons/video.svg" alt="Video icon" class="size-8">
           <% } else if (['mp3', 'wav', 'aac', 'ogg', 'flac'].includes(file.type)) { %>
-          <img src="../../icons/audio.svg" alt="Audio icon" class="size-8">
+          <img src="/icons/audio.svg" alt="Audio icon" class="size-8">
           <% } else if (['pdf','txt', 'docx', 'pdf', 'rtf', 'odt'].includes(file.type)) { %>
-          <img src="../../icons/doc.svg" alt="Documents icon" class="size-8">
+          <img src="/icons/doc.svg" alt="Documents icon" class="size-8">
           <% } else if (['zip', 'rar', '7z', 'tar', 'gz'].includes(file.type)) { %>
-          <img src="../../icons/zip.svg" alt="Archive icon" class="size-8">
+          <img src="/icons/zip.svg" alt="Archive icon" class="size-8">
           <% } else { %>
-          <img src="../../icons/file.svg" alt="File icon" class="size-8">
+          <img src="/icons/file.svg" alt="File icon" class="size-8">
           <% } %>
         </div>
 

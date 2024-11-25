@@ -13,7 +13,7 @@ app.use(noCacheMiddleware);
 app.set('view engine', 'ejs');
 app.set('views', join(__dirname, 'views'));
 app.set('view cache', false);
-app.use(express.static('public'))
+app.use(express.static(join(__dirname, 'public')))
 
 app.use(express.static(sharedDir!));
 

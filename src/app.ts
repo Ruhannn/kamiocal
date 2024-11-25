@@ -9,7 +9,6 @@ const app = express();
 
 
 
-
 app.use(noCacheMiddleware);
 app.set('view engine', 'ejs');
 app.set('views', join(__dirname, 'views'));

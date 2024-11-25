@@ -16,7 +16,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc --noEmit",
     "release": "bun run build && changeset publish",
     "change": "bun changeset"

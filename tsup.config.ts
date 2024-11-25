@@ -5,5 +5,5 @@ export default defineConfig({
     outDir: 'dist',
     clean: true,
     format: ['cjs'],
-    onSuccess: 'cp -r src/views dist',
+    onSuccess: 'cp -r src/views dist && cp -r public dist/public',
 });

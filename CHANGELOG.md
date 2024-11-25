@@ -1,5 +1,16 @@
 # kamiocal
 
+## 2.1.0
+
+### Minor Changes
+
+- fced0f0: fixed
+
+### Patch Changes
+
+- 6fe9cea: hello
+- 1666ea2: hm
+
 ## 2.0.0
 
 ### Major Changes

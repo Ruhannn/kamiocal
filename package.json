@@ -11,7 +11,7 @@
     "local": "dist/index.js"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir",
+    "build": "tsup src/index.ts --format cjs,esm --dts --publicDir --copy package.json ",
     "lint": "tsc --noEmit",
     "release": "bun run build && changeset publish dist",
     "change": "bun changeset"

@@ -11,7 +11,6 @@ export const readDirectory = (sharedDir: string): FileDetails[] => {
         const filePath = getFilePath(sharedDir, file)
         const stats = getStats(filePath)
         const isDir = stats.isDirectory()
-
         return {
             name: file,
             path: file,

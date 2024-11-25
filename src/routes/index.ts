@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
     res.render('index', { data });
 });
 
-router.get('/:folder(*)', (req, res) => {
+router.get('/:folder/(*)', (req, res) => {
     const folderPath = join(sharedDir, req.params.folder);
     const data = readDirectory(folderPath)
     res.render('index', { data });

@@ -1,5 +1,12 @@
 # kamiocal
 
+## 2.2.3
+
+### Patch Changes
+
+- b6d650a: fixed video on readme
+- f45f5b4: video fixed
+
 ## 2.2.2
 
 ### Patch Changes

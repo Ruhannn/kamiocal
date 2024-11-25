@@ -11,11 +11,11 @@ const app = express();
 
 app.use(noCacheMiddleware);
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, '..', 'src', 'views'));
+app.set('views', path.join(__dirname, 'src', 'views'));
 app.set('view cache', false);
-app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use(express.static('./public'))
 
-app.use(express.static(sharedDir));
+app.use(express.static(sharedDir!));
 
 app.use(router)
 

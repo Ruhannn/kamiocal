@@ -10,6 +10,11 @@
     "kamiocal": "dist/index.js",
     "local": "dist/index.js"
   },
+  "files": [
+    "/dist",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --publicDir",
     "lint": "tsc --noEmit",

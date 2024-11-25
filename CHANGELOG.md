@@ -1,5 +1,11 @@
 # kamiocal
 
+## 2.2.2
+
+### Patch Changes
+
+- f37931f: added readme
+
 ## 2.2.1
 
 ### Patch Changes

@@ -4,9 +4,8 @@ a easy to use cli tool to share a folder to your local network
 
 ## Demo
 
-<video  controls>
-  <source src="https://utfs.io/f/ixZAMR5Ua6rOmV4gb4Ag8WqJ71vTBkXHsGQedfb90DCVz3Ii" type="video/mp4">
-</video>
+https://utfs.io/f/ixZAMR5Ua6rOmV4gb4Ag8WqJ71vTBkXHsGQedfb90DCVz3Ii" 
+
 
 ## Features
 

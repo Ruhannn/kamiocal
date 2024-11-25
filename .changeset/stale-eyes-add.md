@@ -1,5 +1,0 @@
----
-"kamiocal": patch
----
-
-added readme

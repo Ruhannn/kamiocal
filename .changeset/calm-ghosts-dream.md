@@ -1,0 +1,5 @@
+---
+"kamiocal": patch
+---
+
+readme enchanted

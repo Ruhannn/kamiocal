@@ -1,6 +1,6 @@
 # Kamiocal
 
-a easy to use cli tool to share a folder to your local network
+A CLI, to share any folder to your local network in a more efficient way
 
 ## Demo
 ![](https://ucarecdn.com/bd52b061-8360-402f-a219-ef83a2a6c857/)
@@ -10,9 +10,9 @@ a easy to use cli tool to share a folder to your local network
 
 - Clean and modern theme
 - Displays file information
-- Easy access to folders and files
-- One-click downloads
-- Fast and simple to use
+- Easily accessible Folders and Files 
+- Download with One-click
+- User Friendly tool
 - Works across all platforms
 
 ## Installation
@@ -71,7 +71,7 @@ Build it
   npm run build
 ```
 
-Start useing it
+Start using it
 
 ```bash
   node dist/index.js [folder path]
@@ -92,7 +92,7 @@ The files are saved on your computer.
 
 ### Is it optimized?
 
-Yes, it works well and is fast.
+Yes, it works well on every platform and it's fast no matter the device.
 
 ## Feedback
 
@@ -105,3 +105,4 @@ If you have any feedback, feel free to reach out to [KamiRu](https://discord.com
 ## Authors
 
 - [Ruhan](https://github.com/Ruhannn)
+- [fateniel](https://github.com/fateniel)

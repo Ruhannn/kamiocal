@@ -4,6 +4,7 @@ A CLI, to share any folder to your local network in a more efficient way
 
 ## Demo
 ![](https://ucarecdn.com/bd52b061-8360-402f-a219-ef83a2a6c857/)
+
 [Video](https://utfs.io/f/ixZAMR5Ua6rOmV4gb4Ag8WqJ71vTBkXHsGQedfb90DCVz3Ii)
 
 ## Features

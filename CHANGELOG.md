@@ -1,5 +1,11 @@
 # kamiocal
 
+## 2.3.0
+
+### Minor Changes
+
+- 6783eed: Replace the Express server with Hono, add current-directory defaults and Cloudflare quick tunnel support, optimize static/file responses, and reorganize the source into clearer CLI, server, and tunnel modules.
+
 ## Unreleased
 
 ### Minor Changes

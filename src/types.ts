@@ -1,9 +1,10 @@
 export interface FileDetails {
     name: string;
     path: string;
-    fullPath: string
+    href: string;
+    fullPath: string;
     isDirectory: boolean;
     size: string;
-    totalFiles: number | null
-    type: string
+    totalFiles: number | null;
+    type: string;
 }

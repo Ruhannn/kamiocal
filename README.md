@@ -11,9 +11,10 @@ A CLI, to share any folder to your local network in a more efficient way
 
 - Clean and modern theme
 - Displays file information
-- Easily accessible Folders and Files 
-- Download with One-click
-- User Friendly tool
+- Easily accessible folders and files
+- Download with one click
+- Share the current directory by default
+- Optional Cloudflare quick tunnel for public sharing
 - Works across all platforms
 
 ## Installation
@@ -27,16 +28,32 @@ npm i -g kamiocal
 ## Usage
 
 ```bash
-local [folderpath]
+local [directory] [options]
 ```
 
 or
 
 ```bash
- kamiocal [folderpath]
+kamiocal [directory] [options]
 ```
 
-open the link in browser or any other device
+`directory` defaults to the current directory. `.` also shares the current directory.
+
+Options:
+
+```bash
+--tunnel, --cloudflare, --cf   Start a Cloudflare quick tunnel with cloudflared
+-p, --port <port>              Port to listen on (default: 7879, or PORT env)
+-h, --help                     Show help
+```
+
+For global sharing, install `cloudflared`, then run:
+
+```bash
+kamiocal . --tunnel
+```
+
+Open the local or Cloudflare link in a browser or another device.
 
 ## Screenshots
 
@@ -75,12 +92,12 @@ Build it
 Start using it
 
 ```bash
-  node dist/index.js [folder path]
+  node dist/index.js [directory] [options]
 ```
 
 ## Tech Stack
 
-- Express
+- Hono
 - Tailwind CSS
 - EJS
 - TypeScript

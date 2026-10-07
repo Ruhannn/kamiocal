@@ -1,5 +1,20 @@
 # kamiocal
 
+## Unreleased
+
+### Minor Changes
+
+- Replaced Express with Hono for the local sharing server.
+- Added current-directory defaults, better path validation, `--port`, and help output.
+- Added `--tunnel` / `--cloudflare` / `--cf` Cloudflare quick tunnel support through `cloudflared`.
+
+### Patch Changes
+
+- Fixed nested directory listing links, empty folder visibility, and zero-byte size formatting.
+- Optimized serving to skip duplicate static lookups, use conditional/range file responses, cache bundled assets immutably, and keep directory listings uncached.
+- Reduced Cloudflare tunnel noise and disabled cloudflared auto-update checks during quick tunnel startup.
+- Reorganized source into `cli`, `server`, and `tunnel` modules with obsolete utility folders removed.
+
 ## 2.2.4
 
 ### Patch Changes

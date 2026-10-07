@@ -13,11 +13,10 @@
 <body class="p-6 bg-[#1f1f1f]">
   <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
     <% data.map((file) => { %>
-    <a href="<%= file.name %>" <%= file.type !== 'folder' ? 'target="_blank"' : '' %>>
+    <a href="<%= file.href %>" <% if (file.type !== 'folder') { %>target="_blank" rel="noopener"<% } %>>
       <li class="flex flex-col justify-center p-4 transition-transform group duration-500 transform 
       <%= file.type === 'folder' ? 'bg-[#1A1A1A] hover:bg-[#2A2A2A]' : 'bg-[#292929] hover:bg-[#363636]' %> 
         rounded-lg shadow-md hover:scale-105  text-gray-500 max-w-[400px] h-[200px] overflow-hidden">
-        <!-- icons -->
         <div class="flex justify-center">
           <% if (file.type === "folder") { %>
           <img src="/icons/folder.svg" alt="Folder icon" class="size-8">
@@ -37,10 +36,8 @@
         </div>
 
         <div class="flex flex-col items-center mt-2">
-          <!-- File Name -->
           <span class="text-sm font-medium overflow-hidden text-ellipsis whitespace-nowrap max-w-[200px] text-center"><%= file.name %></span>
 
-          <!-- Size, Type -->
           <p class="mt-2 text-xs font-bold text-center text-gray-400">
             Size: <%= file.size %> |
             <%= file.type === "folder" ? "" : 'Type: ' + file.type %>
